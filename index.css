@@ -1,0 +1,176 @@
+body {
+	background: url(imagenes/fondo.jpg);
+	
+}
+
+header, section, footer {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}  
+
+header {
+	height: 200px;
+	background-color: darkred;
+}
+
+#marca {
+	width: 700px;
+	height: 150px;
+	background: url(imagenes/nezuko.gif) no-repeat, url(imagenes/logo.jpg);
+	background-position: 160px 50px, 0px 0px;
+	float: left;
+	margin: 20px;
+	border-radius: 30px;
+	box-shadow: 5px 10px 7px rgba(0,0,0,0.8);
+}  
+
+audio {
+	width: 400px;
+	height: 20px;
+	margin-top: 155px;
+	float: left;
+}
+
+nav {
+    width: 220px;   
+    height: 150px;
+    float: right;
+}
+
+nav li {
+	display: block;
+}
+
+nav li a {
+	display: inline-block;
+	width: 200px;
+	height: 30px;
+	border: 1px #e6ecff solid;
+	color: #e6ecff;
+	text-decoration: none;
+	text-align: center;
+	line-height: 30px;
+	background-color: darkred;
+	font-family: cursive;
+	font-size: 20px;
+	border-radius: 30px;
+	box-shadow: 5px 10px 7px rgba(0,0,0,0.8);
+}
+
+nav li a:hover {
+	background-color: #339933;
+
+}
+
+#Historia, #Pilares, #Lunas_Superiores {
+	height: 550px;
+    background-color: darkkhaki;
+} 
+
+h2 {
+	background-color: indianred;
+	color: dark;
+	text-align: center;
+}
+
+p {
+	margin: 20px;
+}
+
+li {
+	margin: 15px;
+}
+
+#imagen_1 {
+	width: 450px;
+	height: 500px;
+	background: url(imagenes/imagen_1.jpg);
+	float: left;
+	margin: 15px;
+	float: left;
+	border-radius: 30px;
+	box-shadow: 5px 10px 7px rgba(0,0,0,0.8);
+}
+
+#texto_1 {
+	width: 450px;
+	height: 500px;
+	background-color: #339933;
+	margin: 15px;
+	float: right;	
+	border-radius: 30px;
+	box-shadow: 5px 10px 7px rgba(0,0,0,0.8);
+}
+
+
+#imagen_2 {
+	width: 450px;
+	height: 500px;
+	background: url(imagenes/imagen_2.jpg);
+	margin: 15px;
+	float: left;
+	border-radius: 30px;
+	box-shadow: 5px 10px 7px rgba(0,0,0,0.8);
+}
+
+#texto_2 {
+	width: 450px;
+	height: 500px;
+	background-color: #339933;
+	margin: 15px;
+	float: right;
+	border-radius: 30px;
+	box-shadow: 5px 10px 7px rgba(0,0,0,0.8);
+}
+
+#imagen_3 {
+	width: 450px;
+	height: 500px;
+	background: url(imagenes/imagen_3.jpg);
+	margin: 15px;
+	float: left;
+	border-radius: 30px;
+	box-shadow: 5px 10px 7px rgba(0,0,0,0.8);
+}
+
+#texto_3 {
+	width: 450px;
+	height: 500px;
+	background-color: #339933;
+	margin: 15px;
+	float: right;
+	border-radius: 30px;
+	box-shadow: 5px 10px 7px rgba(0,0,0,0.8);
+}
+
+#Multimedia {
+	height: 1000px;
+    background-color: darkkhaki;
+    box-shadow: 5px 15px 7px rgba(0,0,0,0.5);
+}
+
+h3 {
+	background-color: indianred;
+	color: dark;
+	text-align: center;
+	font-size: xx-large;
+	width: 960px;
+	float: right;
+}
+
+video {
+	padding-left: 160px;
+	float: left;
+}
+
+footer {
+	height: 100px;
+	background-color: darkred;
+}
+
+h4 {
+	width: 480px;
+	padding-top: 50px;
+	float: right;
+}
